@@ -2,37 +2,92 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.crossedOff {
+  text-decoration: line-through;
+  text-decoration-color: midnightblue;
+  text-align: left;
+  margin-left: 45px;
+  font-size: 44px;
+  color: antiquewhite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.crossedOff input {
+  opacity: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.notCrossedOff {
+  text-emphasis: none;
+  text-align: left;
+  margin-left: 45px;
+  font-size: 44px;
+  color: antiquewhite;
+}
+
+.notCrossedOff input {
+  opacity: 0;
+}
+
+.listDiv {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+button {
+  height: 7vh;
+  width: 24vw;
+  margin: 2px;
+  font-size: 35px;
+  border-radius: 8px;
+  border: none;
+}
+button:active {
+  transform: scale(0.98);
+  
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif;
   color: white;
+  font-size: 50px;
+  font-weight: bolder;
 }
 
-.App-link {
-  color: #61dafb;
+body {
+  background-color: #426775;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#itemInput {
+  width: 48vw;
+  height: 6vh;
+  font-size: 30px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 5px ;
+  padding: 6px;
 }
+
+#input-button-outerDiv {
+  margin-bottom: 40px;
+}
+
+.listLabel {
+  text-align: left;
+  margin-left: 45px;
+  font-size: 44px;
+  color: antiquewhite;
+
+}
+
+.listLabel input {
+  opacity: 0;
+}
+
+#addButton {
+  background-color: lightseagreen;
+}
+
+#deleteButton {
+  background-color: #ff6161;
+}
+
+
