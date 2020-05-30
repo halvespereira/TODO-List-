@@ -86,10 +86,16 @@ body {
 
 #addButton {
   background-color: lightseagreen;
+  cursor: pointer;
 }
 
 #deleteButton {
   background-color: #ff6161;
+  cursor:pointer
 }
+  
+#addButton:hover, #deleteButton:hover {
+  cursor: pointer;
+  }
 
 
