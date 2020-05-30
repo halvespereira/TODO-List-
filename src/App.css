@@ -42,8 +42,10 @@ button {
 }
 button:active {
   transform: scale(0.98);
-  
 }
+
+button:hover {
+  cursor: pointer;
 
 h1 {
   font-family: 'Oswald', sans-serif;
